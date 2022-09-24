@@ -1,0 +1,8 @@
+.calendar {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.react-calendar__tile {
+    padding: 0px;
+}
