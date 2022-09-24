@@ -1,29 +1,53 @@
 .nav {
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
+}
+.nav__logo-link {
 
+}
+
+.nav__logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    bor
+}
+
+.nav__logo {
+    max-width: 28px;
 }
 
 .nav__icon {
     height: 26px;
-    padding: 12px;
 }
 
-.nav__a {
+.nav__link {
     text-decoration: none;
-    color: black;
-    padding: 12px;
 }
+.nav__link--active {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__topic {
+    color: black;
+    padding-right: 24px;
+    font-size: 20px;
+}
+
+
 .nav__boxes {
     box-sizing: border-box;
     width: 100%;
-    background-color: none;
+    padding: 12px;
     display: flex;
     align-items: center;
+    width: max-content;
 } 
 
-.nav__boxes:hover {
+.nav__link:hover .nav__boxes{
     background-color: #BEBFC2;
     border-radius: 30px;
 }
